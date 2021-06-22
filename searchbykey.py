@@ -10,29 +10,7 @@ from subprocess import check_output
 from wordcloud import WordCloud, STOPWORDS
 import random
 
-TempApi = ["AIzaSyC1w73iLDrc_V5iq-otwVZzx-C1OH9DBHk",
-               "AIzaSyD6u0mXbRF1xvHTKbeBCHO4d6kVeuy_gcY",
-               "AIzaSyAnPNaQU7D35nB-7Bbc4nFyCeMkDMY0Vd4",
-               "AIzaSyDkPp-qGi6vHT_YCIUm6mBpl4ecw-JCyNo",
-               "AIzaSyAgwDyRaJa1Bao6DwfPnN2cnFXILCvfh6g",
-               "AIzaSyAyAPGovEXPai6VKhT8VmNZDuNwJeYCKHU",
-               "AIzaSyAG2E7ybgiXbwvyQnNuNa7VXt97M5rWpVs",
-               "AIzaSyAG2E7ybgiXbwvyQnNuNa7VXt97M5rWpVs",
-               "AIzaSyB81jEJFJZ4PvbdRARdaC3mL0M5zNd9PwM",
-               "AIzaSyDK4KdCEe19OVeHNz2xn4NGZfG5z3knnRs",
-               "AIzaSyAUnFaNxoY7-VKiPuY6i38lmxNmBcCdD8Q",
-               "AIzaSyB8N3bXmY_7hj5kjamtJmrhxrzd7pkgToU",
-               "AIzaSyDN1EnXCpV2I3OjqhCzfByu9Wc-1hlNJ7c",
-               "AIzaSyAP6gfSXJU8Gw4qM5FM9TXjTWQPJ7BdjKQ",
-               "AIzaSyAMG4_TRmMNGZV5vkhw-6j59gEDlWbxlhs",
-               "AIzaSyA6V6WoMAsFKzowJcPq8bPuuoBxT6YBXcM",
-               "AIzaSyDc7Kmyn6f6YxTyMNWvJe6izThtuBWZjSU",
-               "AIzaSyDrCUkrdQaZOX-yAVaftZC_2BoVi1yZ2XM",
-               "AIzaSyB-qovr3B8llt02_sCwW0xb_Psn_1Ti6hs",
-               "AIzaSyBzUMFv6BNR0OwvttGiOiHZMVsflEl066c",
-               "AIzaSyAJuYfLo5g_1LjwAaRg5vng8WSPpMRx6e4",
-               "AIzaSyAWDf6NazehW-f29SnSzv4ozG-8tEX9Chs",
-               "AIzaSyDZyYuZ7vxc6Jtjjf-4oRFu-yvAGqKPnOw"]
+TempApi = ["YOUR API KEY"]
 #set api 
 def setAPI():
     youTubeApiKey=TempApi[random.randint(0,len(TempApi)-1)]
